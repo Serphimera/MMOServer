@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonCommon", "PhotonCommon\PhotonCommon.csproj", "{CEF0B0D3-DC80-4889-9380-1059D584EB88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonFramework", "PhotonFramework\PhotonFramework.csproj", "{B56A13AD-8270-4D2D-AA97-55D08821C7F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterServer", "MasterServer\MasterServer.csproj", "{57405DD9-3DB7-49B5-A0EC-EDC6CBDF1DCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{CEF0B0D3-DC80-4889-9380-1059D584EB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEF0B0D3-DC80-4889-9380-1059D584EB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEF0B0D3-DC80-4889-9380-1059D584EB88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B56A13AD-8270-4D2D-AA97-55D08821C7F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56A13AD-8270-4D2D-AA97-55D08821C7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56A13AD-8270-4D2D-AA97-55D08821C7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56A13AD-8270-4D2D-AA97-55D08821C7F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57405DD9-3DB7-49B5-A0EC-EDC6CBDF1DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57405DD9-3DB7-49B5-A0EC-EDC6CBDF1DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57405DD9-3DB7-49B5-A0EC-EDC6CBDF1DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57405DD9-3DB7-49B5-A0EC-EDC6CBDF1DCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

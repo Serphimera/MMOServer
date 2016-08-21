@@ -1,8 +1,8 @@
 ﻿// ********************************************************************************
 // Copyright (C) 2016 Sebastian Kenter. All rights reserved.
 //  
-// Name    : MMOServer | PhotonCommon | AssemblyInfo.cs
-// Created : 2016-21-08 13:52
+// Name    : MMOServer | PhotonFramework | AssemblyInfo.cs
+// Created : 2016-21-08 13:53
 // Modified: 2016-21-08 14:12
 // ********************************************************************************
 
@@ -13,11 +13,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("PhotonCommon")]
+[assembly: AssemblyTitle("PhotonFramework")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PhotonCommon")]
+[assembly: AssemblyProduct("PhotonFramework")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -30,7 +30,7 @@ using System.Runtime.InteropServices;
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 
-[assembly: Guid("cef0b0d3-dc80-4889-9380-1059d584eb88")]
+[assembly: Guid("b56a13ad-8270-4d2d-aa97-55d08821c7f5")]
 
 // Version information for an assembly consists of the following four values:
 //
