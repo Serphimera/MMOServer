@@ -38,6 +38,10 @@
       <HintPath>..\packages\Autofac.Configuration.3.3.0\lib\net40\Autofac.Configuration.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Photon Server 4\Photon-Server-4-0-29-11263\lib\ExitGamesLibs.dll</HintPath>
+    </Reference>
     <Reference Include="FluentNHibernate, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FluentNHibernate.2.0.3.0\lib\net40\FluentNHibernate.dll</HintPath>
       <Private>True</Private>
@@ -77,11 +81,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Database\Access\ParameterReader.cs" />
     <Compile Include="Database\DBSettings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>DBSettings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Database\Domain\ParameterT.cs" />
+    <Compile Include="Database\Mapping\ParameterTMap.cs" />
     <Compile Include="Database\SessionManager.cs" />
     <Compile Include="Messages\Helper\MessageSerializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -96,7 +103,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Database\Access\" />
     <Folder Include="Messages\Templates\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
