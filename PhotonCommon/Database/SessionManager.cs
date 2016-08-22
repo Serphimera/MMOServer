@@ -7,7 +7,9 @@
 // ********************************************************************************
 
 using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
 using NHibernate;
@@ -22,7 +24,7 @@ namespace PhotonCommon.Database
     {
         static SessionManager()
         {
-            var mappingAssemblies =
+            IEnumerable<Assembly> mappingAssemblies =
                 AppDomain.CurrentDomain.GetAssemblies().Where(a => a.FullName.StartsWith("PhotonServerCommon"));
 
             SessionFactory =

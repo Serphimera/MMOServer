@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PhotonFramework.Settings" GeneratedClassName="Framework">
+  <Profiles />
+  <Settings>
+    <Setting Name="MasterServerTCPPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4530</Value>
+    </Setting>
+    <Setting Name="ClientUDPPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5055</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
